@@ -18,12 +18,11 @@ int main() {
 } // end of main
 
 string DisplayApplicationInformation() {
-    
-    cout << "Welcome to the Basic User Interface Program\nCIS247C, Week 1 Lab\nName: \nThis program accepts user input as a         string, then makes the appropriate data conversion."; 
-    
+    cout << "Welcome to the Basic User Interface Program\nCIS247C, Week 1 Lab\nName: \nThis program accepts user input as a         string, then makes the appropriate data conversion.";
 } // end of DisplayApplicationInformation
 
 string DisplayDivider(string outputTitle) {
+    outputTitle = cout << "**************** " + outputTitle + "****************"
     return outputTitle;
 } // end of DisplayDivider
 
